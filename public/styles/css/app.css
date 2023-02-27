@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background-image
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 150vh;
+    background-image: linear-gradient(to right bottom, #c4ec74, #abe479, #92dc7d, #7bd382, #64c987);
+    padding-bottom: 250px;
+}
+
+.sizes
+{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 7.5vh;
+    width: 18%;
+    padding: 15px;
+    border: 1px dotted #000;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+form.shoes-form
+{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 15vh;
+    width: 30%;
+    height: 34vh;
+    box-shadow: 0 0 4px 1px blue;
+}
+.shoes-groups
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.form-group
+{
+    position: relative; 
+    margin: 10px 0; 
+    text-align: center;
+}
+.form-group label { font-size: 18px; }
+.form-group input, .form-group select 
+{ 
+    margin-top: 3px; 
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #000;
+    outline: none;
+    padding: 5px 0;
+    width: 100%;
+}
+
+.btn.btn-add
+{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    margin-top: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+.btn.btn-add img 
+{ 
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.btn.btn-add img:hover { border: 1px solid #000; }
+
+table.shoes-table
+{
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 22.5vh;
+    width: 30%;
+    height: auto;
+    border: 2px solid #000;
+    padding: 15px;
+}
+table.shoes-table th { text-align: left; }
+table.shoes-table th, table.shoes-table td { padding: 5px 15px;}
